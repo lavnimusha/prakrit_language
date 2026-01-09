@@ -1,0 +1,6 @@
+langchain
+pypdf
+langchain_openai
+langchain_core
+chromadb
+openai
