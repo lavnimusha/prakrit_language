@@ -1,0 +1,11 @@
+{
+  "buildCommand": "echo 'Using Dockerfile for build'",
+  "devCommand": "streamlit run main.py --logger.level=debug",
+  "framework": "other",
+  "functions": {
+    "api/**/*.py": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  }
+}
